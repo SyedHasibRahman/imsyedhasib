@@ -1,0 +1,24 @@
+.service-card{ 
+    padding: 20px 30px;
+    transition: 1s;
+    box-shadow: 0px  7px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    min-height: 300px;
+    border: 1px solid #42B32F;
+}
+.service-card:hover{
+    background: linear-gradient(to right,rgba(25, 123, 8, 0.7), rgb(7, 140, 113)); 
+    box-shadow: 0px  0px 25px rgba(0,255,203,.5);
+    border: 1px solid #42B32F;
+} 
+.service-card:hover p{
+    color: #fff;   
+}
+.card-icon i{
+    font-size: 70px;
+    color: #42B32F;
+    
+}
+.service-card:hover i{ 
+    color: #fff;
+}
